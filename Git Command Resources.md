@@ -19,15 +19,15 @@ I will use Github as primary example for commands and references. For any other 
 ## Table of Contents
 
 1. [Git Commands Cheatsheet](#cheatsheet) : :coffee: Basic and Quick Lookup for To-Go-Commands that you need.  
-   0. [configure git email/name](#config)
-   1. [make .gitignore](#gitignore)
-   2. [make a new repo](#make-new)
-   3. [clone a repo](#clone)
-   4. [remote add origin](#remote)
-   5. [pull from repository](#pull)
-   6. [add, commit and push](#a-c-p)
-   7. [branching](#branch)
-   8. [merge](#merge)
+   1. [configure git email/name](#config)
+   2. [make .gitignore](#gitignore)
+   3. [make a new repo](#make-new)
+   4. [clone a repo](#clone)
+   5. [remote add origin](#remote)
+   6. [pull from repository](#pull)
+   7. [add, commit and push](#a-c-p)
+   8. [branching](#branch)
+   9. [merge](#merge)
 2. [Git Tutorials](#tutorial) : :book: Materials to help you learn Git. Also the concept behind version controls.
    1. [Dont be afraid to commit](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html) 
    2. [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
