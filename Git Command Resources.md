@@ -151,8 +151,6 @@ If you need more, you can simply add to the list, or check out [this page](https
 
 #### 2. Make a new Repository: (Start a repo from scratch on your machine)
 
-[Back To Top](#toc)
-
 Let's learn to make a new repo on your computer. First go into your terminal and create a folder.
 
 ```bash
@@ -184,9 +182,9 @@ If you want to see your local repo uploaded to Github, go to [section 6](#local-
 
 <a id="clone">
 
-#### 3. Clone a Repository: (Copy a repo on your machine so you can work on it)
-
 [Back To Top](#toc)
+
+#### 3. Clone a Repository: (Copy a repo on your machine so you can work on it)
 
 Another thing you may wanna do is get your team's project so you can start on it. This is actually very easy. Since all you're doing is downloading that repository from github, you have to run a one liner.
 
@@ -198,9 +196,9 @@ You will get that line https address by going to the set repo on github and clic
 
 <a id="connect-repos">
 
-#### 4. Remote Add Origin: (Connect Your local and remote repo)
-
 [Back To Top](#toc)
+
+#### 4. Remote Add Origin: (Connect Your local and remote repo)
 
 First, you have to make sure your git repo is initialized.
 
@@ -219,9 +217,9 @@ This command will add remote named origin at the address of your github reposito
 
 <a id="pull">
 
-#### 5. Pull from Repository: (Update your local machine to sync with Remote)
-
 [Back To Top](#toc)
+
+#### 5. Pull from Repository: (Update your local machine to sync with Remote)
 
 **If you have not read [section 4](#connect-repos), please go back and finish section 4 before proceeding.**
 
@@ -235,15 +233,15 @@ This is all you have to do!
 
 <a id="a-c-p">
 
-#### 6. Add, Commit and Push: (Update the remote repo to sync with machine)
-
 [Back To Top](#toc)
+
+#### 6. Add, Commit and Push: (Update the remote repo to sync with machine)
 
 **If you have not read [section 4](#connect-repos), please go back and finish section 4 before proceeding.**
 
 Before I exaplin about pushing, lets go over the data flow in git commands.
 
-![gitflow](C:\Users\lg\Desktop\gitflow.png)
+![gitflow](./gitflow.png)
 
 Without going into too much detail, you can see two important nodes in the picture : workspace and remote repository. For us, the **workspace** is the folder in your computer. **Remote repository** is thre repository on Github.
 
@@ -277,9 +275,9 @@ Now it's up on github for the world to see. Just three lines of command. That ea
 
 <a id="branch">
 
-#### 7. Branching: (Best way to NOT Screw Up)
-
 [Back To Top](#toc)
+
+#### 7. Branching: (Best way to NOT Screw Up)
 
 One thing I want to tell myself 10 months ago regarding git would be to **branch everytime I make a commit, and delete the branch once merged with master**. This is explained very well in [Git-Scm](https://git-scm.com/doc) website if you want to know why. But the best practice is to create a new branch when something is updated with your code, push it to that branch, merge that branch with master, and delete that branch. Here is how you do it.
 
@@ -306,9 +304,9 @@ git push -d origin new-branch1 # git push -d <remote_name> <branch_name>
 
 <a id="merge">
 
-#### 8. Merge: (Last of Git You need)
-
 [Back To Top](#toc)
+
+#### 8. Merge: (Last of Git You need)
 
 If your code is stable and working 100%, then and only then should you merge your branch with master branch. Remember that best practice would be having a functional program on master branch at all times. Some people like to merge on github because it is easy to see the changes. I like to merge on github as well. Also, [GUI softwares](#software) are a really good tool to visualize the commit and merge history. But when the merge conflict is so large, you have to resolve the conflict in you command line, so here are the commands for merging on command line.
 
@@ -330,9 +328,9 @@ With that, now you know the basics of Git!
 
 <a id="tutorial">
 
-##  2. Git Tutorials
-
 [Back To Top](#toc)
+
+##  2. Git Tutorials
 
 Here are some tutorials I found helpful in learning these commands.
 
