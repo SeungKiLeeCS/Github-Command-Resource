@@ -18,7 +18,7 @@ I will use Github as primary example for commands and references. For any other 
 
 ## Table of Contents
 
-1. [Git Commands Cheatsheet](#cheatsheet) : :coffee: Basic and Quick Lookup for To-Go-Commands that you need.
+1. [Git Commands Cheatsheet](#cheatsheet) : :coffee: Basic and Quick Lookup for To-Go-Commands that you need.  
    0. [configure git email/name](#config)
    1. [make .gitignore](#gitignore)
    2. [make a new repo](#make-new)
